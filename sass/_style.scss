@@ -102,6 +102,18 @@ body {
     background-position: center;
     background-size: cover;
   }
+}
 
-  .who-text {}
+// Section: Clients
+#clients {
+
+  .items {
+    display: flex;
+
+    img {
+      display: block;
+      margin: auto;
+      width: 60%;
+    }
+  }
 }

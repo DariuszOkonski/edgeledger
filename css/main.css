@@ -230,6 +230,18 @@ body {
   background-size: cover;
 }
 
+#clients .items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#clients .items img {
+  display: block;
+  margin: auto;
+  width: 60%;
+}
+
 @media (max-width: 768px) {
   h1 {
     color: green;

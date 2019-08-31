@@ -4,5 +4,31 @@
 }
 
 .l-heading {
-  color: red;
+  font-size: 4rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.1;
+}
+
+.lead {
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  display: inline-block;
+  color: #fff;
+  background: #93cb52;
+  padding: 0.5rem 2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+  &:hover {
+    background: #7ab436;
+  }
+}
+
+.btn-dark {
+  background: #333;
+  color: #fff;
 }

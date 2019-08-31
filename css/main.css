@@ -251,6 +251,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  height: 471px;
 }
 
 #contact .contact-form,
@@ -258,10 +259,6 @@ body {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
-}
-
-#contact .contact-form {
-  margin: 0.75rem;
 }
 
 #contact .contact-form .form-group {
@@ -276,6 +273,11 @@ body {
 #contact .contact-form .form-group textarea {
   width: 100%;
   padding: 0.5rem;
+}
+
+#contact .map {
+  height: 100%;
+  margin: 0.75px;
 }
 
 @media (max-width: 768px) {

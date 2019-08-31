@@ -121,6 +121,7 @@ body {
 // Section: Contact
 #contact {
   display: flex;
+  height: 471px;
 
   .contact-form,
   .map {
@@ -128,7 +129,7 @@ body {
   }
 
   .contact-form {
-    margin: 0.75rem;
+    // margin: 0.75rem;
 
     .form-group {
       margin: 0.75rem;
@@ -143,5 +144,12 @@ body {
         padding: 0.5rem;
       }
     }
+  }
+
+  .map {
+    height: 100%;
+    // height: 471px;
+    // padding: 2rem;
+    margin: 0.75px;
   }
 }

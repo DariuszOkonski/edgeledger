@@ -1,4 +1,15 @@
 // Utility Classes
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 2rem;
+  overflow: hidden;
+}
+
+.text-center {
+  text-align: center;
+}
+
 .text-primary {
   color: #93cb52;
 }
@@ -9,9 +20,27 @@
   line-height: 1.1;
 }
 
+.m-heading {
+  font-size: 2rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.1;
+}
+
 .lead {
   font-size: 1.3rem;
   margin-bottom: 2rem;
+}
+
+.py-1 {
+  padding: 1.5rem 0;
+}
+
+.py-2 {
+  padding: 2rem 0;
+}
+
+.py-3 {
+  padding: 3rem 0;
 }
 
 .btn {

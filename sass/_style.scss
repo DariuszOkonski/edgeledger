@@ -87,3 +87,21 @@ body {
     }
   }
 }
+
+// Section: Who We Are
+#who {
+  display: flex;
+
+  div {
+    flex: 1;
+  }
+
+  .who-img {
+    background: url('../img/people.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .who-text {}
+}

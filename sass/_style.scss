@@ -117,3 +117,31 @@ body {
     }
   }
 }
+
+// Section: Contact
+#contact {
+  display: flex;
+
+  .contact-form,
+  .map {
+    flex: 1;
+  }
+
+  .contact-form {
+    margin: 0.75rem;
+
+    .form-group {
+      margin: 0.75rem;
+
+      label {
+        display: block;
+      }
+
+      input,
+      textarea {
+        width: 100%;
+        padding: 0.5rem;
+      }
+    }
+  }
+}

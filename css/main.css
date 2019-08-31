@@ -41,6 +41,11 @@ p {
   color: #fff;
 }
 
+.bg-primary {
+  background: #93cb52;
+  color: #fff;
+}
+
 .l-heading {
   font-size: 4rem;
   margin-bottom: 0.75rem;
@@ -240,6 +245,37 @@ body {
   display: block;
   margin: auto;
   width: 60%;
+}
+
+#contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#contact .contact-form,
+#contact .map {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+#contact .contact-form {
+  margin: 0.75rem;
+}
+
+#contact .contact-form .form-group {
+  margin: 0.75rem;
+}
+
+#contact .contact-form .form-group label {
+  display: block;
+}
+
+#contact .contact-form .form-group input,
+#contact .contact-form .form-group textarea {
+  width: 100%;
+  padding: 0.5rem;
 }
 
 @media (max-width: 768px) {

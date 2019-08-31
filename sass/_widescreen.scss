@@ -1,5 +1,36 @@
 @media(min-width: 1100px) {
-  h1 {
-    color: yellow;
+
+  // Section: What We Do
+  #what {
+    .items {
+      .item {
+        display: flex;
+        text-align: left;
+        align-items: center;
+
+        i {
+          margin-right: 1.3rem;
+          display: inline-block;
+          flex-basis: 50%;
+
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-bottom: 0;
+        }
+
+        div {
+          flex-grow: 1;
+        }
+      }
+    }
   }
+
+  // Section: Contact
+  #contact {
+    .map {
+      flex: 2;
+    }
+  }
+
 }

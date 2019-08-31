@@ -1,5 +1,32 @@
 @media(max-width: 768px) {
-  h1 {
-    color: green;
+  #what {
+    .items {
+      // flex-direction: column;
+
+      display: block;
+
+      .item {
+        display: flex;
+        text-align: left;
+        align-items: center;
+
+        i {
+          // margin-right: 1.3rem;
+          // display: inline-block;
+          flex-basis: 64px;
+
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-bottom: 0;
+        }
+
+        div {
+          flex-grow: 1;
+          margin-left: 20px;
+        }
+      }
+    }
   }
+
 }

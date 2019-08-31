@@ -1,3 +1,4 @@
+// Tablets
 @media(max-width: 768px) {
   #what {
     .items {
@@ -29,4 +30,89 @@
     }
   }
 
+}
+
+// Smartphones
+@media(max-width: 500px) {
+
+  // Navbar
+  #navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .logo {
+      margin-bottom: 0.5rem;
+      text-align: center;
+    }
+
+    ul {
+      padding: 0.5rem;
+    }
+  }
+
+  // Showcase
+  #showcase {
+    .showcase-content {
+      top: 110px;
+    }
+  }
+
+  // Section: What We Do
+  #what {
+    .items {
+      .item {
+        display: flex;
+
+        i {
+          flex-basis: 70%;
+        }
+      }
+    }
+  }
+
+  // Section: Who We Are
+  #who {
+    display: block;
+
+    .who-img {
+      display: none;
+    }
+  }
+
+  // Section: Clients
+  #clients {
+    .items {
+      img {
+        width: 80%;
+      }
+
+      div:last-child {
+        display: none;
+      }
+    }
+  }
+
+  // Section: Contact
+  #contact {
+    height: 671px;
+    flex-direction: column;
+
+    .map {
+      width: 100%;
+      height: 200px;
+      border-top: 4px solid #333;
+    }
+  }
+
+}
+
+@media(max-height: 568px) {
+  .l-heading {
+    font-size: 3rem;
+  }
+
+  .lead {
+    font-size: 1rem;
+  }
 }

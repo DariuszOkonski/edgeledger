@@ -1,9 +1,11 @@
 {
     "version": 3,
-    "mappings": "ACAA,AAAA,EAAE,CAAC;EACD,KAAK,EAAE,GAAG;CACX",
+    "mappings": "ACAA,AAAA,EAAE,CAAC;EACD,KAAK,EAAE,GAAG;CACX;;ACFD,MAAM,EAAC,SAAS,EAAE,KAAK;EACrB,AAAA,EAAE,CAAC;IACD,KAAK,EAAE,KAAK;GACb;;;ACHH,MAAM,EAAC,SAAS,EAAE,MAAM;EACtB,AAAA,EAAE,CAAC;IACD,KAAK,EAAE,MAAM;GACd",
     "sources": [
         "../sass/main.scss",
-        "../sass/_style.scss"
+        "../sass/_style.scss",
+        "../sass/_mobile.scss",
+        "../sass/_widescreen.scss"
     ],
     "names": [],
     "file": "main.css"
